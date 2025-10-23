@@ -17,7 +17,7 @@
 
     <footer class="footer">
       <span class="title">Pranayama (4/7/8 breathing)</span>
-      <span class="version">For Abbie Smith &middot; v1.2.0</span>
+      <span class="version">For Abbie Smith &middot; v1.2.1</span>
     </footer>
   </div>
 </template>
@@ -29,7 +29,7 @@ const labels = ["Inhale", "Hold", "Exhale"];
 const durations = [4, 7, 8];
 const widths = [100, 100, 0];
 
-const stateIndex = ref(0);
+const stateIndex = ref(1);
 const time = ref(0);
 
 onMounted(() => {

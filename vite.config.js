@@ -16,10 +16,11 @@ export default defineConfig({
         enabled: true,
       },
       manifest: {
-        name: "Pranayama",
+        name: "Pranayama Timer",
         short_name: "Pranayama",
         description: "4/7/8 breathing timer",
         theme_color: "#3674b5",
+        background_color: "#3674b5",
         icons: [
           {
             src: "android-chrome-192x192.png",

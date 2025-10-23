@@ -17,7 +17,7 @@
 
     <footer class="footer">
       <span class="title">Pranayama (4/7/8 breathing)</span>
-      <span class="version">For Abbie Smith &middot; v1.1.0</span>
+      <span class="version">For Abbie Smith &middot; v1.2.0</span>
     </footer>
   </div>
 </template>
@@ -91,6 +91,7 @@ onMounted(() => {
   display: flex;
   justify-content: center;
   align-items: center;
+  box-shadow: 0 0 32px 0 #d1f8ef;
 }
 
 .innerCircle {

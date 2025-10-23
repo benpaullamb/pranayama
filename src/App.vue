@@ -17,7 +17,7 @@
 
     <footer class="footer">
       <span class="title">Pranayama (4/7/8 breathing)</span>
-      <span class="version">For Abbie Smith &middot; v1.0.0</span>
+      <span class="version">For Abbie Smith &middot; v1.1.0</span>
     </footer>
   </div>
 </template>
@@ -65,6 +65,7 @@ onMounted(() => {
 
 .text {
   z-index: 2;
+  color: rgba(0, 0, 0, 0.8);
 }
 
 .label {
@@ -107,6 +108,7 @@ onMounted(() => {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  color: rgba(0, 0, 0, 0.5);
 }
 
 .title {

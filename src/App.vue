@@ -14,6 +14,11 @@
         }"
       ></div>
     </div>
+
+    <footer class="footer">
+      <span class="title">Pranayama (4/7/8 breathing)</span>
+      <span class="version">For Abbie Smith &middot; v1.0.0</span>
+    </footer>
   </div>
 </template>
 
@@ -91,5 +96,24 @@ onMounted(() => {
   aspect-ratio: 1;
   border-radius: 50%;
   background: #d1f8ef;
+}
+
+.footer {
+  padding: 8px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.title {
+  font-size: 12px;
+}
+
+.version {
+  font-size: 10px;
 }
 </style>
